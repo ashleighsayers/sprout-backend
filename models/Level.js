@@ -14,7 +14,6 @@ const levelSchema = new mongoose.Schema({
   },
   level: {
     type: Number,
-    default: 1,
     required: true    
   },
   tasks: {
